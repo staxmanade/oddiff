@@ -1,0 +1,39 @@
+{
+  "name": "oddiff",
+  "version": "0.0.0",
+  "description": "Colorized octal diff tool using the mac/unix od tool and jsdiff/chalk for colorized output",
+  "main": "index.js",
+  "preferglobal": true,
+  "scripts": {
+    "test": "mocha tests/**.js"
+  },
+  "bin": {
+    "oddiff": "./index.js"
+  },
+  "keywords": [
+    "od",
+    "diff",
+    "difftool",
+    "jsdiff"
+  ],
+  "author": "Jason Jarrett",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/staxmanade/oddiff"
+  },
+  "bugs": {
+    "url": "https://github.com/staxmanade/oddiff/issues"
+  },
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "diff": "^1.4.0",
+    "minimist": "^1.1.1",
+    "msee": "^0.1.1",
+    "shelljs": "^0.5.0"
+  },
+  "devDependencies": {
+    "approvals": "^1.1.0",
+    "chai": "^3.0.0"
+  }
+}

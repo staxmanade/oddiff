@@ -1,0 +1,14 @@
+# Usage
+
+oddiff file1 file2
+        [--version]   : prints the version
+        [--debug]     : prints extra debug info to the console
+
+# Description
+
+oddiff is a simple tool that wraps the native od command against both files passed in, and then applies a colorized diff output between the two results of od.
+
+# Results
+
+When the two files are identical, you will see the octal representation of the file printed in a grey text to the console.
+If there are any differences they will be displayed in-line in the console output with red (removed) and green (added) to the screen.

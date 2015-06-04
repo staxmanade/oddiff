@@ -1,6 +1,6 @@
 {
   "name": "oddiff",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Colorized octal diff tool using the mac/unix od tool and jsdiff/chalk for colorized output",
   "main": "index.js",
   "preferglobal": true,
